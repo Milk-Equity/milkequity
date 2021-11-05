@@ -90,9 +90,9 @@ body, html {
   <h3 class="w3-center">Milk Equity</h3>
   <p class="w3-center"><em>We make money, simple as that.</em></p>
   <p>Milk Equity was created in 2021 to solidify, enhance, and broaden the financial base and long-term security of our members. Milk Equity
-    uses advanced convoluted neural networks, machine learning, and supervised learning to determine our investment choices. These technologies 
-    are enabled by Milk Equities proprietary blockchain based data lakes that employ advanced random forest and deep learning methodologies. 
-    This groundbreaking work allows our firm to understand the market on a level never before seen, solidifying, enhancing, and broadening the 
+    uses advanced convoluted neural networks, machine learning, and supervised learning to determine our investment choices. These technologies
+    are enabled by Milk Equities proprietary blockchain based data lakes that employ advanced random forest and deep learning methodologies.
+    This groundbreaking work allows our firm to understand the market on a level never before seen, solidifying, enhancing, and broadening the
     financial base and security of our investors. </p>
 
 
@@ -112,9 +112,33 @@ body, html {
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
   </div>
- --> 
+ -->
 </div>
-
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_0c62b"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-TSLA/" rel="noopener" target="_blank"><span class="blue-text">TSLA Chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 980,
+  "height": 610,
+  "symbol": "NASDAQ:TSLA",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_0c62b"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-quarter w3-section">
     <span class="w3-xlarge">14+</span><br>
@@ -146,7 +170,7 @@ body, html {
   <h3 class="w3-center">MY WORK</h3>
   <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
 
-  
+
 </div>
 
 <!-- Modal for full size images on click-->
@@ -210,7 +234,7 @@ body, html {
   </div>
   <p>Powered by cocaine</p>
 </footer>
- 
+
 <script>
 // Modal Image Gallery
 function onClick(element) {
