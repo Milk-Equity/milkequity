@@ -139,24 +139,32 @@ body, html {
 </div>
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-  <div id="tradingview_295f2"></div>
+  <div id="tradingview_685c1"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AFRM/" rel="noopener" target="_blank"><span class="blue-text">AFRM Chart</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <script type="text/javascript">
   new TradingView.widget(
   {
-  "autosize": true,
+  "width": 900,
+  "height": 610,
   "symbol": "NASDAQ:AFRM",
   "interval": "D",
   "timezone": "Etc/UTC",
   "theme": "light",
-  "style": "1",
+  "style": "0",
   "locale": "en",
   "toolbar_bg": "#f1f3f6",
   "enable_publishing": false,
   "allow_symbol_change": true,
   "save_image": false,
-  "container_id": "tradingview_295f2"
+  "watchlist": [
+    "AFRM",
+    "NYSE:CVS",
+    "NYSE:KMX",
+    "NASDAQ:SFIX",
+    "NYSE:TXT"
+  ],
+  "container_id": "tradingview_685c1"
 }
   );
   </script>
